@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/item_bg02" >
+
+    <ImageView
+        android:id="@+id/id_index_gallery_item_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:scaleType="centerCrop" />
+    
+    <TextView
+        android:id="@+id/index_gallery_item_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_index_gallery_item_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:ellipsize="end" 
+        android:singleLine="true"
+        android:maxEms="15"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/micro_text_size" />
+
+    <TextView
+        android:id="@+id/index_gallery_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/index_gallery_item_desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/red"
+        android:textSize="@dimen/micro_text_size" />
+    
+    <View 
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray"/>
+
+</RelativeLayout>

@@ -1,0 +1,311 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myapp="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/left_drawer_item_bg_normal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/login_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.0"
+        android:minHeight="102.0dip"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="15.0dip"
+            android:layout_marginTop="30.0dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/avatar"
+                android:layout_width="@dimen/left_drawer_avatar_size"
+                android:layout_height="@dimen/left_drawer_avatar_size"
+                android:layout_marginLeft="32.0dip"
+                android:layout_marginRight="16.0dip"
+                android:background="@drawable/round_avatar_bg"
+                android:padding="1.0dip" />
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/left_drawer_user_name"
+                android:textSize="16.0sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/logout_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.0"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/leftmenu_denglu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="20dip"
+            android:paddingLeft="25dip"
+            android:paddingTop="20dip" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="80.0dip"
+                android:layout_height="80.0dip"
+                android:src="@drawable/icon_leftmeau_head" />
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dip"
+                android:text="@string/ytt_left_menu_dlyzc"
+                android:textColor="@drawable/ytt_menu_left_yanse_wenzi"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView style="@style/left_drawer_item_line" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/pgc_btn"
+                style="@style/left_drawer_item_layout"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/pgc_name"
+                    style="@style/left_drawer_item_text"
+                    android:drawableLeft="@drawable/ic_drawer_pgc" />
+            </RelativeLayout>
+
+            <ImageView style="@style/left_drawer_item_line" />
+
+            <RelativeLayout
+                android:id="@+id/personal_btn"
+                style="@style/left_drawer_item_layout" >
+
+                <TextView
+                    style="@style/left_drawer_item_text"
+                    android:drawableLeft="@drawable/ic_drawer_search"
+                    android:text="@string/left_drawer_item_personal" />
+            </RelativeLayout>
+
+            <ImageView style="@style/left_drawer_item_line" />
+
+            <RelativeLayout
+                android:id="@+id/shop_btn"
+                style="@style/left_drawer_item_layout" >
+
+                <TextView
+                    style="@style/left_drawer_item_text"
+                    android:drawableLeft="@drawable/ic_drawer_favorite"
+                    android:text="@string/left_drawer_item_shop" />
+            </RelativeLayout>
+
+            <ImageView style="@style/left_drawer_item_line" />
+
+            <RelativeLayout
+                android:id="@+id/box_btn"
+                style="@style/left_drawer_item_layout" >
+
+                <TextView
+                    android:id="@+id/box_text"
+                    style="@style/left_drawer_item_text"
+                    android:drawableLeft="@drawable/ic_drawer_message"
+                    android:text="@string/left_drawer_item_box" />
+
+                <TextView
+                    android:id="@+id/top_message_count"
+                    style="@style/left_drawer_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="25.0dip"
+                    android:layout_marginTop="6.0dip"
+                    android:layout_toRightOf="@id/box_text"
+                    android:background="@drawable/left_drawer_count_bg" />
+            </RelativeLayout>
+
+            <ImageView style="@style/left_drawer_item_line" />
+
+            <RelativeLayout
+                android:id="@+id/offline_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <RelativeLayout
+                    android:id="@+id/business_colleg_btn"
+                    style="@style/left_drawer_item_layout" >
+
+                    <ImageView
+                        android:id="@+id/business_colleg_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="25.0dip"
+                        android:src="@drawable/ic_drawer_offline" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/business_colleg_icon"
+                        android:minHeight="50.0dip" >
+
+                        <TextView
+                            android:id="@+id/business_colleg_btn_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="14.0dip"
+                            android:text="@string/left_drawer_item_business_college"
+                            android:textColor="@color/left_drawer_item_text"
+                            android:textSize="15.0sp" />
+
+                        <TextView
+                            android:id="@+id/offline_hint"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/business_colleg_btn_text"
+                            android:layout_marginTop="2.0dip"
+                            android:textColor="@color/left_drawer_offline_hint"
+                            android:textSize="7.0sp"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/offline_progressbar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/business_colleg_btn"
+                    android:src="@drawable/left_drawer_download"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/offline_divider"
+                style="@style/left_drawer_item_line" />
+
+            <LinearLayout
+                android:id="@+id/app_activity_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50.0dip"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <RelativeLayout
+                    android:id="@+id/agent_btn"
+                    style="@style/left_drawer_item_layout" >
+
+                    <TextView
+                        android:id="@+id/agent_text"
+                        style="@style/left_drawer_item_text"
+                        android:layout_centerVertical="true"
+                        android:drawableLeft="@drawable/left_drawer_activity_selector"
+                        android:text="@string/left_drawer_item_agent" />
+
+                    <TextView
+                        android:id="@+id/agent_count"
+                        style="@style/left_drawer_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="25.0dip"
+                        android:layout_marginTop="6.0dip"
+                        android:layout_toRightOf="@id/agent_text"
+                        android:background="@drawable/left_drawer_count_bg" />
+                </RelativeLayout>
+
+                <ImageView style="@style/left_drawer_item_line" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/msg_btn"
+                style="@style/left_drawer_item_layout" >
+
+                <TextView
+                    style="@style/left_drawer_item_text"
+                    android:drawableLeft="@drawable/ic_drawer_setting"
+                    android:text="@string/left_drawer_item_msg" />
+            </RelativeLayout>
+
+            <ImageView style="@style/left_drawer_item_line" />
+
+            <RelativeLayout
+                android:id="@+id/secret_btn"
+                style="@style/left_drawer_item_layout" >
+
+                <TextView
+                    style="@style/left_drawer_item_text"
+                    android:drawableLeft="@drawable/ic_drawer_feedback"
+                    android:text="@string/left_drawer_item_secret" />
+            </RelativeLayout>
+
+            <ImageView style="@style/left_drawer_item_line" />
+            
+            <RelativeLayout
+                android:id="@+id/favorite_btn"
+                style="@style/left_drawer_item_layout" >
+
+                <TextView
+                    style="@style/left_drawer_item_text"
+                    android:drawableLeft="@drawable/ic_drawer_feedback"
+                    android:text="@string/left_drawer_item_favorite" />
+            </RelativeLayout>
+
+            <ImageView style="@style/left_drawer_item_line" />
+            
+            <RelativeLayout
+                android:id="@+id/code_btn"
+                style="@style/left_drawer_item_layout" >
+
+                <TextView
+                    style="@style/left_drawer_item_text"
+                    android:drawableLeft="@drawable/ic_drawer_feedback"
+                    android:text="@string/left_drawer_item_code" />
+            </RelativeLayout>
+
+            <ImageView style="@style/left_drawer_item_line" />
+            
+            <RelativeLayout
+                android:id="@+id/setting_btn"
+                style="@style/left_drawer_item_layout" >
+
+                <TextView
+                    style="@style/left_drawer_item_text"
+                    android:drawableLeft="@drawable/ic_drawer_feedback"
+                    android:text="@string/left_drawer_item_setting" />
+            </RelativeLayout>
+
+            <ImageView style="@style/left_drawer_item_line" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

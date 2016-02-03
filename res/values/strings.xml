@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- normal -->
+    <string name="app_name">云天团</string>
+    <string name="action_settings">设置</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_goods_list">商品列表</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="area_county">县</string>
+    <string name="area_city">市</string>
+    <string name="desc">这就是一张图片啦啦啦啦。。。</string>
+    <string name="copyright1">版权所有 云天团电子商务有限公司</string>
+    <string name="copyright2">粤ICP备15021871</string>
+
+    <!-- SlidingMenu 侧边栏 -->
+    <string name="ytt_left_menu_dlyzc">  登录与注册</string>
+    <string name="title_1">\u0020\u0020\u0020\u0020美文收藏\u0020\u0020\u0020\u0020</string>
+    <string name="title_2">\u0020\u0020\u0020\u0020疑难收藏\u0020\u0020\u0020\u0020</string>
+    <string name="title_3">\u0020\u0020\u0020\u0020检查更新\u0020\u0020\u0020\u0020</string>
+    <string name="title_4">\u0020\u0020\u0020\u0020意见反馈\u0020\u0020\u0020\u0020</string>
+    <string name="title_5">\u0020\u0020\u0020\u0020关于我们\u0020\u0020\u0020\u0020</string>
+    <string name="title_6">\u0020\u0020\u0020\u0020系统设置\u0020\u0020\u0020\u0020</string>
+    <string name="left_drawer_item_personal">个人中心</string>
+    <string name="left_drawer_item_shop">云商城</string>
+    <string name="left_drawer_item_box">百宝箱</string>
+    <string name="left_drawer_item_business_college">商学院</string>
+    <string name="left_drawer_item_agent">我要代理</string>
+    <string name="left_drawer_item_msg">资讯</string>
+    <string name="left_drawer_item_secret">美食秘籍</string>
+    <string name="left_drawer_item_favorite">我的收藏</string>
+    <string name="left_drawer_item_code">我的二维码</string>
+    <string name="left_drawer_item_setting">系统设置</string>
+
+    <!-- 个人中心 -->
+    <string name="personal_title">我的云天团</string>
+    <string name="personal_more">更多</string>
+    <string name="personal_welcome">欢迎来到云天团</string>
+    <string name="personal_login">登录/注册</string>
+    <string name="personal_username">昵称:</string>
+    <string name="personal_yunvip"> 云天团会员</string>
+    <string name="personal_userid">  ID:</string>
+    <string name="personal_userphone">YTT_0123456789</string>
+    <string name="personal_usercollection">我的收藏</string>
+    <string name="personal_box">百宝箱</string>
+    <string name="personal_share">分享给好友</string>
+    <string name="personal_fast_search">订单状态速查</string>
+    <string name="personal_my_order">我的订单</string>
+    <string name="personal_my_wallet">我的钱包</string>
+    <string name="personal_account_balance">账户余额</string>
+    <string name="personal_coupons">代金券</string>
+    <string name="personal_integral">积分</string>
+    <string name="personal_tic">TIC</string>
+    <string name="personal_service_feedback">服务与反馈</string>
+    <string name="personal_shipping_address_management">收货地址管理</string>
+    <string name="personal_agent">我要代理</string>
+    <!-- 消息 -->
+    <string name="noti_msg">消息</string>
+    <string name="friends_list">助手</string>
+    <string name="layout_notification_message">通知消息</string>
+    <string name="layout_activity_yuntt">云天团活动</string>
+    <string name="layout_with_customer">与客服的聊天</string>
+    <string name="layout_gourmet_secrets">美食秘籍</string>
+     <string name="layout_express_query">快递查询</string>
+    <string name="layout_weather">天气</string>
+    <string name="layout_region">地区</string>
+    
+    <!-- 首页 -->
+    <string name="home_latest_items">最新宝贝</string>
+    <string name="home_today_special">今日特惠</string>
+
+    <!-- 百宝箱 -->
+
+    <string name="personal_wait_pay">待付款订单</string>
+    <string name="personal_my_focus">我的关注</string>
+    <string name="personal_comment">商品评价/晒单</string>
+    <string name="personal_information">消息中心</string>
+    <string name="personal_account">账户安全</string>
+    <string name="personal_return_back">返修/退换货</string>
+    <string name="personal_order_center">订单中心</string>
+    <string name="personal_account_center">账户中心</string>
+    <string name="personal_customer_service">客户服务</string>
+    <string name="personal_infomation_service">预约电话服务</string>
+    <string name="title_activity_login">登录</string>
+    <string name="title_activity_search">搜索</string>
+    <string name="pull_pull">下拉刷新</string>
+    <string name="pull_pull_1">上拉刷新</string>
+    <string name="pull_realse">释放更新</string>
+    <string name="pull_refresh">加载中……</string>
+    <string name="imageview_description">缩略图</string>
+
+    <!-- 检查更新 -->
+    <string name="yunshi_update_updatenow">立即更新</string>
+    <string name="yunshi_update_updatenonow">暂不更新</string>
+    <string name="title">标题</string>
+    <string name="ignore">忽略</string>
+
+    <!-- 微博登录相关 -->
+    <string name="weibosdk_demo_toast_auth_success">授权成功</string>
+    <string name="weibosdk_demo_toast_auth_failed">授权失败</string>
+    <string name="weibosdk_demo_toast_auth_canceled">取消授权</string>
+    <string name="weibosdk_demo_toast_obtain_code_success">获取 Code 成功</string>
+    <string name="weibosdk_demo_toast_obtain_code_failed">获取 Code 失败</string>
+    <string name="weibosdk_demo_toast_obtain_token_success">获取 Token 成功</string>
+    <string name="weibosdk_demo_toast_obtain_token_failed">获取 Token 失败</string>
+    <string name="weibosdk_demo_token_to_string_format_1">Token：%1$s \n有效期：%2$s</string>
+    <string name="weibosdk_demo_token_has_existed">Token 仍在有效期内，无需再次登录。</string>
+
+    <!-- 空格 -->
+    <string name="space">&#160;</string>
+    <string name="title_activity_more">更多</string>
+    <string name="title_activity_box">BoxActivity</string>
+    <string name="title_activity_address_management">AddressManagementActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
